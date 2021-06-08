@@ -40,7 +40,5 @@
     },
     "require": {
         "kreait/firebase-php": "^5.2"
-    },
-    "minimum-stability": "dev",
-    "prefer-stable": true
+    }
 }
