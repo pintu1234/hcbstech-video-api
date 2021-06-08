@@ -1,0 +1,46 @@
+{
+    "name": "hcbstech/video-api",
+    "description": "zoom metting",
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "gvp7003",
+            "email": "gauravpatel@hcbspro.com"
+        }
+    ],
+    "require": {
+        "php": "^5.6|^7.1|^8.0",
+        "illuminate/support": "^5.2|^6.0|^7.0|^8.0",
+        "vonage/client": "^2.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^5.3|~6.0|~8.0|~9.0",
+        "orchestra/testbench": "~3.0|^4.0|^5.0|^6.0"
+    },
+     "autoload": {
+        "psr-4": {
+            "Hcbszoom\\Zoom\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Hcbszoom\\Zoom\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Hcbszoom\\Zoom\\ZoomServiceProvider"
+            ],
+            "aliases": {
+                "Hcbszoom": "Zoom"
+            }
+        }
+    },
+    "require": {
+        "kreait/firebase-php": "^5.2"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
