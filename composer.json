@@ -1,12 +1,16 @@
 {
     "name": "hcbstech/video-api",
     "description": "zoom metting",
+    "keywords": ["gaurav", "gaurav-zoom", "zoom", "laravel"],
     "license": "MIT",
+    "homepage": "https://github.com/pintu1234/hcbstech-video-api",
     "type": "library",
     "authors": [
         {
             "name": "gvp7003",
-            "email": "gvp7003@gmail.com"
+            "email": "gvp7003@gmail.com",
+            "homepage": "https://github.com/pintu1234/hcbstech-video-api",
+            "role": "Developer"
         }
     ],
     "require": {
@@ -39,6 +43,7 @@
         }
     },
     "require": {
-        "kreait/firebase-php": "^5.2"
+        "kreait/firebase-php": "^5.2",
+        "php": ">=5.3.0"
     }
 }
